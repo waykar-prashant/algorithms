@@ -25,6 +25,16 @@ public class CheckBasicLinkedListFunction {
 		myLinkedList.remove(0);
 		printList();		
 		
+		//Testing Unboxing
+		Integer i = new Integer(10);
+		testUnboxing(i);
+		int a = i;
+		System.out.println("Unbixing : " + a);
+		
+	}
+	
+	private static void testUnboxing(int i){
+		System.out.println("Unboxed I : " + i);
 	}
 	
 	public static void printList(){
