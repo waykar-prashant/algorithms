@@ -33,8 +33,9 @@ public class PreOrderTraversal {
 	public static void main(String[] args) {
 		PreOrderTraversal order = new PreOrderTraversal();
 		order.root = TreeUtils.getTree();
+		System.out.println("Recursive pre-order tree traversal");
 		order.preOrderTraversalRecursive(order.root);
-		System.out.println();
+		System.out.println("\n\nIterative pre-order tree traversal");
 		order.root = TreeUtils.getTree();
 		order.preOrderTraversalIterative(order.root);
 		
