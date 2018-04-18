@@ -152,6 +152,7 @@ public class StringAndArray {
 	}
 
 	private static void stringCompression2(String str) {
+		
 		int len = compressCount(str);
 		System.out.println("Compressed String length - " + len);
 		if(len <  str.length()){
